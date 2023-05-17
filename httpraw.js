@@ -1,9 +1,11 @@
+// Solely developed by Eternal Atake.
+// Do NOT claim my method skids.
 const fs = require('fs');
 const url = require('url');
 const net = require('net');
 if (process.argv.length <= 2) {
-	console.log("node httpraw.js url time");
-	console.log("Edit by FrostedFlakes666");
+    console.log("\x1b[38;2;255;255;255mnode \x1b[38;2;0;255;255mh\x1b[38;2;28;227;255mt\x1b[38;2;57;198;255mt\x1b[38;2;85;170;255mp\x1b[38;2;113;142;255mr\x1b[38;2;142;113;255ma\x1b[38;2;170;85;255mw\x1b[38;2;255;255;255m.\x1b[38;2;227;28;255mj\x1b[38;2;255;0;255ms\x1b[38;2;255;255;255m <\x1b[38;2;255;255;95murl\x1b[38;2;255;255;255m> <\x1b[38;2;255;255;95mduration\x1b[38;2;255;255;255m>\x1b[0m");
+	console.log("\x1b[38;2;200;200;200mExclusively developed by \x1b[38;2;0;255;255mE\x1b[38;2;21;234;255mt\x1b[38;2;43;213;255me\x1b[38;2;64;191;255mr\x1b[38;2;85;170;255mn\x1b[38;2;106;149;255ma\x1b[38;2;128;128;255ml\x1b[38;2;149;106;255m \x1b[38;2;170;85;255mA\x1b[38;2;191;64;255mt\x1b[38;2;213;43;255ma\x1b[38;2;234;21;255mk\x1b[38;2;255;0;255me\x1b[38;2;255;255;255m.\x1b[0m");
 	process.exit(-1);
 }
 var target = process.argv[2];
